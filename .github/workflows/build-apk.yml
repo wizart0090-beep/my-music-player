@@ -24,7 +24,13 @@ jobs:
 
       - name: Install Buildozer
         run: |
+          pip install --upgrade "Cython==0.29.33"
           pip install buildozer
+    
+      
+      
+        
+    
   
 
       - name: Build APK with Buildozer
