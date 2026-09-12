@@ -5,7 +5,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,mp3
 version = 0.1
-requirements = python3,kivy,Cython==0.29.33
+requirements = Cython==0.29.33,python3,kivy
 orientation = portrait
 fullscreen = 0
 android.permissions = READ_EXTERNAL_STORAGE
